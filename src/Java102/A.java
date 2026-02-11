@@ -9,7 +9,6 @@ public class A {
     }
     public A(int c){
         this.val=c;
-
     }
 
     public void PrintA() {
