@@ -5,8 +5,8 @@ public class SimpleCalc {
     private int y;
     public SimpleCalc()
     {
-        this.x=0;
-        this.y=0;
+        this.x=1;
+        this.y=5;
     }
     public SimpleCalc(int a,int b)
     {
