@@ -14,11 +14,11 @@ public class SimpleCalc {
         this.y = b;
     }
 
-    public int Add() {
+    public final int Add() {
         return this.x + this.y;
     }
 
-    public int sup() {
+    public final int sup() {
         return this.x - this.y;
     }
 

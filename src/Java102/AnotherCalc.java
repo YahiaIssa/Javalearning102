@@ -10,12 +10,12 @@ public class AnotherCalc extends SimpleCalc{
     {
         super(a,b);
     }
-    public int Multiply()
+    public final int Multiply()
     {
      return this.getX() * this.getY();
 
     }
-    public double Division()
+    public final double Division()
     {
         int y=this.getY();
         if (y==0)
