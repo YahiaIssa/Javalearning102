@@ -1,19 +1,16 @@
 package Java102;
 
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        A obj = new A();
-        obj.x = 750;
-        System.out.println(obj);
-        A obj2 = new A();
-        System.out.println(obj);
 
-        C Calc = new C(5.2f);
-        C Calc2= new C(7.1f);
-        C Calc3= new C(8.0f);
-        System.out.println(Calc.result);
-        System.out.println(Calc2.result);
-        System.out.println(Calc3.result);
+        Scanner f=new Scanner(System.in);
+        System.out.println("please enter your age :");
+        int c = f.nextInt();
+        System.out.println("your age is : "+c);
+
+
+
     }
 
-}
+            }

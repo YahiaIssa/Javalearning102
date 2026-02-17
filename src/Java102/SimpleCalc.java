@@ -1,17 +1,21 @@
 package Java102;
 
+import java.util.Scanner;
+
 public class SimpleCalc {
     private int x;
     private int y;
 
-    public SimpleCalc() {
-        this.x = 1;
-        this.y = 5;
-    }
+    private Scanner scan;
 
-    public SimpleCalc(int a, int b) {
-        this.x = a;
-        this.y = b;
+
+    public SimpleCalc() {
+        this.scan = new Scanner(System.in);
+        System.out.println("Please Enter the first number : ");
+        this.x = this.scan.nextInt();
+        System.out.println("Please Enter the seconde number : ");
+        this.y = this.scan.nextInt();
+
     }
 
     public final int Add() {
