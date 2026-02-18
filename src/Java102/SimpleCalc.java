@@ -15,7 +15,6 @@ public class SimpleCalc {
         this.x = this.scan.nextInt();
         System.out.println("Please Enter the seconde number : ");
         this.y = this.scan.nextInt();
-
     }
 
     public final int Add() {
