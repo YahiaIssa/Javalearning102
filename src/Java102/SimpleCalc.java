@@ -8,7 +8,6 @@ public class SimpleCalc {
 
     private Scanner scan;
 
-
     public SimpleCalc() {
         this.scan = new Scanner(System.in);
         System.out.println("Please Enter the first number : ");
@@ -18,6 +17,8 @@ public class SimpleCalc {
     }
 
     public final int Add() {
+        Math.max(x,y);
+
         return this.x + this.y;
     }
 

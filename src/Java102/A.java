@@ -1,18 +1,12 @@
 package Java102;
 
+import java.util.InputMismatchException;
+
 public class A {
 
-    public void setMaxValue(int val) throws Exception
+    public void DrawShape(Shape s)
     {
-//        try {
-            if (val > 100)
-                throw new Exception("Val overflow");
-            System.out.println(val);
-//        } catch (Exception e) {
-//
-//            System.out.println(e.getMessage());
-//        }
-
+        s.Draw();
     }
 
 
