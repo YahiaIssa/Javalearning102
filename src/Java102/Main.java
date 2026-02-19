@@ -7,9 +7,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        double result=0.0;
+        try {
+     result =  Calcuator.Div(10.5,0);
 
-        Tweet t=new Tweet("yahia", "welcome to tweeter ");
-        t.Reply("salman ","hi hahs");
-        t.Retweet("hussin","welcome to java ");
+        }
+        catch (ArithmeticException e)
+        {
+            System.out.println("Div by zero");
+        }
+        System.out.println(result);
     }
 }
