@@ -4,9 +4,17 @@ import java.util.InputMismatchException;
 
 public class A {
 
-    public void DrawShape(Shape s)
+    public void Draw(int val)
     {
-        s.Draw();
+        if (val==0)
+            return;
+        for (int i = 0; i < val ; i++)
+               System.out.print("@");
+
+            System.out.println("%");
+            Draw(val - 1);
+        System.out.println("End DRAW"+val);
+
     }
 
 
