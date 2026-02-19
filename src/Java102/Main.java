@@ -3,19 +3,12 @@ package Java102;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+import javax.swing.JFrame;
 
 public class Main {
     public static void main(String[] args) {
-        double result=0.0;
-        try {
-     result =  Calcuator.Div(10.5,0);
-
-        }
-        catch (ArithmeticException e)
-        {
-            System.out.println("Div by zero");
-        }
-        System.out.println(result);
+        JFrame window=new JFrame("Welcome to java");
+        window.setSize(200,300);
+        window.show();
     }
 }
